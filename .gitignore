@@ -1,0 +1,13 @@
+.venv/
+**/__pycache__/
+*.py[cod]
+
+# Local and generated runtime data
+ipl_prediction_project/backend/temp_data/*
+!ipl_prediction_project/backend/temp_data/.gitkeep
+ipl_prediction_project/data/*.csv
+ipl_prediction_project/data/*.db
+pythonmlproject/IPL.csv
+pythonmlproject/data/raw/*.csv
+pythonmlproject/data/processed/*.csv
+pythonmlproject/data/processed/*.parquet
